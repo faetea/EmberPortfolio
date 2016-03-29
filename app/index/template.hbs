@@ -1,27 +1,9 @@
 <div class="container">
   <div class="page-header">
-    <h2>Welcome</h2>
+    <h2 class="text-primary">Welcome</h2>
   </div>
   <p class="lead">It's Nice To Meet You.  I hope you like what you see!</p>
   <p  class="text-center">{{link-to "Samples" 'portfolio' class="btn btn-default"}}</p>
 </div>
 
 {{outlet}}
-
-{{!-- <div class="header-content">
-  <div class="header-content-inner">
-    <h1>Allison S.</h1>
-    <hr>
-    <p><em>Welcome.</em>  It's Nice To Meet You.  I hope you like what you see!</p>
-
-    {{#link-to 'portfolio'}}Samples{{/link-to}}
-  </div>
-</div> --}}
-
-
-{{!-- When generating a link you might want to set additional attributes for it.
-You can do this with additional arguments to the link-to helper:
-
-<p>{{link-to "Edit this photo" "photo.edit" photo class="btn btn-primary"}}</p>
-Many of the common HTML properties you would want to use like class, and rel will work.
-When adding class names, Ember will also apply the standard ember-view and possibly active class names. --}}
